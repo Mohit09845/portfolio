@@ -3,7 +3,6 @@ import { Briefcase, Code, User } from "lucide-react";
 export const AboutSection = () => {
     return (
         <section id="about" className="py-24 px-4 relative">
-            {" "}
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                     About <span className="text-primary"> Me</span>
@@ -30,10 +29,8 @@ export const AboutSection = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
-                                {" "}
                                 Get In Touch
                             </a>
-
                             <a
                                 href="https://drive.google.com/file/d/1rwOraBdWiwXX4nthiTxx6coxhcaYnXzc/view?usp=sharing"
                                 target="_blank"
@@ -51,7 +48,7 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Web Development</h4>
+                                    <h4 className="font-semibold text-lg">Web Development</h4>
                                     <p className="text-muted-foreground">
                                         Creating responsive websites and web applications with
                                         modern frameworks.
@@ -78,7 +75,6 @@ export const AboutSection = () => {
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Briefcase className="h-6 w-6 text-primary" />
                                 </div>
-
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Backend Development</h4>
                                     <p className="text-muted-foreground">
@@ -87,6 +83,22 @@ export const AboutSection = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                {/* Work Experience Section */}
+                <div className="mt-20">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+                        Work <span className="text-primary">Experience</span>
+                    </h2>
+                    <div className="bg-muted p-6 rounded-lg shadow-sm">
+                        <h4 className="text-xl font-semibold text-primary">
+                            Frontend Development Intern, CloudsBySunil
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-1">July 2025 – Present</p>
+                        <p className="text-muted-foreground">
+                            Working on responsive UIs using React, JavaScript, and Figma, contributing to real-world projects with a focus on user experience.
+                        </p>
                     </div>
                 </div>
             </div>
