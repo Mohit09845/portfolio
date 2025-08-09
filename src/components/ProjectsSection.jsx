@@ -16,19 +16,19 @@ const projects = [
     description:
       "Your go-to destination for insightful stories, expert tips, and trending topics—all in one place.",
     image: "/blogbrew.png",
-    tags: ["React.js", "Node.js", "MongoDB", "Node.js"],
+    tags: ["React.js", "Node.js", "MongoDB", "Javascript"],
     demoUrl: "https://blogbrew-chi.vercel.app/",
     githubUrl: "https://github.com/Mohit09845/blogbrew",
   },
   {
     id: 3,
-    title: "Thinkboard",
+    title: "Raghav-Electric",
     description:
-      "Capture, organize, and access your ideas anytime with our smart note-making platform.",
-    image: "/thinkboard.png",
-    tags: ["React", "Node.js", "MongoDB", "Node.js"],
-    demoUrl: "https://thinkboard-kuvr.onrender.com",
-    githubUrl: "https://github.com/Mohit09845/thinkboard",
+      "An interactive website for managing electrical products focused on UI",
+    image: "/raghav-electric.png",
+    tags: ["React", "Node.js", "MongoDB", "Express"],
+    demoUrl: "https://raghav-electric-frontend.vercel.app/",
+    githubUrl: "https://github.com/Mohit09845/raghav-electric",
   },
 ];
 
